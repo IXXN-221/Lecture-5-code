@@ -22,7 +22,14 @@
         <p id='paragraph'>
             By following some basic guidelines.
         </p>
+        <button id='push' onclick="nightmode()">Nightmode</button>
     </div>
+    <script>
+    function nightmode(){
+        document.body.style = "background-color: black; color: white;"
+        document.getElementById('push').innerHTML = 'Pushed'
+    }
+    </script>
 
 
 
